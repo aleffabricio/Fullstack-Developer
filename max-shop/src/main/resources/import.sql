@@ -47,9 +47,9 @@ INSERT INTO "public"."product_info" VALUES ('F0001', 1, '2019-03-10 12:15:05', '
 INSERT INTO "public"."product_info" VALUES ('F0002', 1, '2019-03-10 12:16:44', 'Relógio Inteligente', 'https://images-americanas.b2w.io/produtos/01/00/img3/135163/0/135163026_1GG.jpg', 'Relógio Inteligente', 50.00, 0, 22, '2018-03-10 12:16:44');
 
 
-INSERT INTO "public"."users" VALUES (2147483641, 't', '3200 West Road', 'customer1@email.com', 'customer1', '$2a$10$PrI5Gk9L.tSZiW9FXhTS8O8Mz9E97k2FZbFvGFFaSsiTUIl.TCrFu', '123456789', 'ROLE_CUSTOMER');
-INSERT INTO "public"."users" VALUES (2147483642, 't', '2000 John Road', 'manager1@email.com', 'manager1', '$2a$10$PrI5Gk9L.tSZiW9FXhTS8O8Mz9E97k2FZbFvGFFaSsiTUIl.TCrFu', '987654321', 'ROLE_MANAGER');
-INSERT INTO "public"."users" VALUES (2147483643, 't', '222 East Drive ', 'employee1@email.com', 'employee1', '$2a$10$PrI5Gk9L.tSZiW9FXhTS8O8Mz9E97k2FZbFvGFFaSsiTUIl.TCrFu', '123123122', 'ROLE_EMPLOYEE');
+INSERT INTO "public"."users" VALUES (2147483641, 't', '3200 West Road', 'teste@email.com', 'customer1', '$2a$10$PrI5Gk9L.tSZiW9FXhTS8O8Mz9E97k2FZbFvGFFaSsiTUIl.TCrFu', '123456789', 'ROLE_CUSTOMER');
+INSERT INTO "public"."users" VALUES (2147483642, 't', '2000 John Road', 'colaborador@email.com', 'colaborador', '$2a$10$PrI5Gk9L.tSZiW9FXhTS8O8Mz9E97k2FZbFvGFFaSsiTUIl.TCrFu', '987654321', 'ROLE_MANAGER');
+INSERT INTO "public"."users" VALUES (2147483643, 't', '222 East Drive ', 'cliente@email.com', 'cliente', '$2a$10$PrI5Gk9L.tSZiW9FXhTS8O8Mz9E97k2FZbFvGFFaSsiTUIl.TCrFu', '123123122', 'ROLE_EMPLOYEE');
 INSERT INTO "public"."users" VALUES (2147483645, 't', '3100 Western Road A', 'customer2@email.com', 'customer2', '$2a$10$0oho5eUbDqKrLH026A2YXuCGnpq07xJpuG/Qu.PYb1VCvi2VMXWNi', '2343456', 'ROLE_CUSTOMER');
 
 INSERT INTO "public"."cart" VALUES (2147483641);
