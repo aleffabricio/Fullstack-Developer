@@ -1,4 +1,4 @@
-package me.zhulin.shopapi.api;
+package br.com.maximatech.api;
 
 import org.junit.Test;
 

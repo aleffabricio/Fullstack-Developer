@@ -1,4 +1,4 @@
-package me.zhulin.shopapi;
+package br.com.maximatech;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class ShopApiApplicationTests {
+public class MaxEcommercee {
 
     @Test
     public void contextLoads() {
