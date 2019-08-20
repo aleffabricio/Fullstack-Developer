@@ -1,64 +1,53 @@
-## Fullstack - Developer 
+## Projeto
 
-Parabéns, você passou para a segunda fase do processo seletivo da MáximaTech para desenvolvedor Fullstack (Java + Angular).
+O projeto foi separado em duas partes, onde temos o backend Max-shop(Spring Boot - Java) e Frontend(Angular CLI 7.1.4).
 
-## Instruções
+## Como executar o backend
 
-1. Criar um fork deste repositório e implementar o aplicativo conforme instruções abaixo.
-2. Abrir um merge request para este repositório para que possamos avaliar o seu código.
-3. Enviar um e-mail para talentoshumanos@maximatech.com.br com:
-4. Assunto: “[Teste Desenvolvedor Web] - Seu nome” 
-5. Corpo do e-mail: Link do Merge request
+1. E necessário ter a JDK versão 11 ou superior(No desenvolvimento foi utilizado a versão 12.0) para rodar o projeto.
+2. Foi utilizado a versão 4.11 do pgAdmin(PostgreSql).
+3. Criar database no postgres chamado 'postgresql'.
+4. Clonar o projeto e executar o projeto java e o frontend, onde a ordem e pelo backend seguindo pelo frontend.
+5. Para o backend foi utilizado o Eclipse versão 2019 como ferramenta e o VS Code para o frontend.
+6. Após clonar o projeto basta converter para maven e executar lo através do 'javaApplication' sendo a classe 
+'MaxEcommerce.java' como principal.
+7. A URL para acessar as API do backend e: [localhost:8080]()
+8. O application.properties está setado a senha default 'postgres'.
 
-É hora do show!
+## Como executar o frontend
 
-## Resumo
+1. Install [Node.js and npm]
+2. `cd frontend`.
+3. Run `npm install`.
+4. Run `ng serve`
+5. Para chamar a tela principal usa se a URL: [localhost:4200]().
 
-Você foi escolhido para escrever uma PoC (Prova de Conceito) de um e-commerce, basicamente o sistema consiste na criação de Pedidos (cliente + produtos + frete).
-Assim, um usuário com acesso ao sistema selecionará a opção e o fluxo de utilização do sistema 
+## Tecnologias usadas
 
-## Seguem os requisitos:
-
-* A stack de tecnologia a ser utilizada é Java (ou Kotlin) + Angular 7 + Spring Boot (com Gradle ou Maven).
-* O sistema é composto por 3 microserviços: Serviço Web (Angular) + Serviço Api  (Spring Boot) + Serviço de Cálculo de Frete (Spring Boot).
-* Banco de dados - NoSQL (MongoDB) ou SQL (PostgreSQL)
-* Tela de listagem dos pedidos
-* Todas as informações (JSONs e Pedidos) precisam ser persistidos no banco de dados escolhido.
-* Documento descrevendo o processo de instalação do sistema
-
-## Microserviço de Cálculo de Frete
-O microserviço de cálculo de frete terá um webservice que  receberá a quantidade de itens que foram selecionados e multiplicará por um valor aleatório entre R$5,00 e R$10,00. Retornando assim o valor calculado.
-
-### Exemplo
-Foram selecionados 2 itens do Produto A e 1 item do Produto B, logo teremos 3 itens. O valor sorteado foi R$ 8,00. Assim: 3 x R$ 8,00 = R$ 24,00.
-
-## Diferenciais
-
-* Utilização de docker
-* Load Balancer
-* Utilização do Service Discovery e Api Gateway
-* Desenho Arquitetural
-* Escrita de testes
-
-## Arquivos
-
-**GET Request -> Dados do Cliente e Produtos**
-
-	URL : https://api.myjson.com/bins/tnjfr
+**Backend**
+  - Java 11
+  - Spring Boot 2.2
+  - Spring Security
+  - JWT Authentication
+  - Spring Data JPA
+  - Hibernate
+  - PostgreSQL
+  - Maven
   
-**Arquivos de Design**
+**Frontend**
+  - Angular 7
+  - Angular CLI
+  - Bootstrap
 
-	URL : 
 
-## Critérios de Avaliação
 
-* Organização do projeto
-* Utilização de padrões arquiteturais
-* Clareza do código
-* Escolha de estruturas e bibliotecas
-* Ausência de crashs e bugs
-* Detalhes de UI
-* Linguagem de programação
 
-## Dúvidas
-Entre em contato com talentoshumanos@maximatech.com.br
+
+
+
+  
+
+
+
+
+
