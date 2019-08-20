@@ -1,4 +1,4 @@
-## Projeto
+## Projeto Max-Shop
 
 O projeto foi separado em duas partes, onde temos o backend **Max-shop** (Spring Boot - Java) e **Frontend** (Angular CLI 7.1.4).
 
