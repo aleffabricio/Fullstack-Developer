@@ -1,7 +1,7 @@
 package br.com.maximatech.enums;
 
 public enum OrderStatusEnum implements CodeEnum {
-    NEW(0, "Nova ordem"),
+    NEW(0, "Nova Ordem"),
     FINISHED(1, "Finalizado"),
     CANCELED(2, "Cancelado")
     ;
