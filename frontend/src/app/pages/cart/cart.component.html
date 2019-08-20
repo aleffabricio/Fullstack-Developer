@@ -51,7 +51,7 @@
 <div *ngIf="productInOrders?.length > 0; else empty">
 	<h5 style="display: inline;">Total:  {{total  | currency}}</h5>
     <br><br>
-    <h5 style="display: inline;">Frete: R$ {{freight}}</h5>
+    <h5 style="display: inline;">Frete: {{freight | currency}}</h5>
     <br>
     <button (click)="checkout()" class="btn btn-warning float-right">Checkout</button>
 </div>
