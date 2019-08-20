@@ -6,7 +6,7 @@ O projeto foi separado em duas partes, onde temos o backend **Max-shop** (Spring
 
 1. E necessário ter a JDK versão 11 ou superior(No desenvolvimento foi utilizado a versão 12.0) para rodar o projeto.
 2. Foi utilizado a versão **4.11** do pgAdmin(PostgreSql).
-3. Criar database no postgres chamado 'postgresql'.
+3. Criar database no postgres chamado **'postgresql'**.
 4. Clonar o projeto e executar o projeto java e o frontend, onde a ordem e pelo Max-shop seguindo pelo frontend.
 5. Para o backend foi utilizado o Eclipse versão 2019 como ferramenta e o VS Code para o frontend.
 6. Após clonar o projeto basta converter para maven e executar lo através do **'javaApplication'** sendo a classe 
