@@ -1,3 +1,9 @@
+## Fluxo inicial
+
+
+![Max-shop](https://user-images.githubusercontent.com/14118647/63349639-38c92c00-c332-11e9-812d-8acffcc16c7f.gif)
+
+
 ## Projeto Max-Shop
 
 O projeto foi separado em duas partes, onde temos o backend **Max-shop** (Spring Boot - Java) e **Frontend** (Angular CLI 7.1.4).
